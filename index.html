@@ -9,28 +9,48 @@
   </head>
   <body>
     <main>
-      <nav id="navigator">
-        <article>
-          <h2>> Recently opened</h2>
-          <ul>
-            <li></li>
+      <nav class="navigator">
+        <article class="navigator--container">
+          <h2 class="navigator--container__title">Recently opened</h2>
+          <!--Cicle until 5-->
+          <ul class="recently--container">
+            <li>random vide.mp4</li>
+            <li>random vide.mp4</li>
+            <li>random vide.mp4</li>
+            <li>random vide.mp4</li>
+            <li>random vide.mp4</li>
+            <li>random vide.mp4</li>
           </ul>
         </article>
 
-        <article id="openVideo">
-          <h2>> Open video</h2>
+        <!--Use default file browser-->
+        <article class="navigator--container" id="openVideo">
+          <h2 class="navigator--container__title">Open video</h2>
         </article>
 
-        <hr class="divider" />
+        <hr class="navigator--divider" />
 
-        <article>
+        <!--Add some contact data-->
+        <article class="navigator--container">
           We are using Node.js <span id="node-version"></span>, Chromium
           <span id="chrome-version"></span>, and Electron
           <span id="electron-version"></span>.
         </article>
       </nav>
 
-      <section>
+      <!--Simple greeter-->
+      <section id="greeter">
+        <article id="greeter--container">
+          <h1 id="greeter--container__title">Welcome to JPTV!</h1>
+
+          <h3 id="greeter--container__message">
+            A simple easy-to-use video player, using modern look and feel to
+            handle your videos
+          </h3>
+        </article>
+      </section>
+
+      <section id="videoPlayer">
         <!--Video screen-->
         <article>
           <video controls>
