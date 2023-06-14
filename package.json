@@ -1,0 +1,30 @@
+{
+  "name": "jptv",
+  "version": "1.0.0",
+  "description": "A simple JS/TS video player",
+  "main": "main.js",
+  "scripts": {
+    "test": "test",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndresMpa/jptv.git"
+  },
+  "keywords": [
+    "js",
+    "ts",
+    "video",
+    "player",
+    "electron"
+  ],
+  "author": "AndresMpa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AndresMpa/jptv/issues"
+  },
+  "homepage": "https://github.com/AndresMpa/jptv#readme",
+  "devDependencies": {
+    "electron": "^25.1.0"
+  }
+}
