@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/AndresMpa/jptv#readme",
   "devDependencies": {
-    "electron": "^25.1.0"
+    "electron": "^25.1.0",
+    "electron-reload": "^2.0.0-alpha.1"
   }
 }
