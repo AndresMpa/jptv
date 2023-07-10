@@ -13,7 +13,8 @@ const createWindow = () => {
   });
 
   windowInstance.setBackgroundColor("#131313");
-  windowInstance.loadFile("index.html");
+  windowInstance.loadFile("./visor/index.html");
+  windowInstance.removeMenu();
 };
 
 app.whenReady().then(() => {
