@@ -1,4 +1,5 @@
 @import "basics.css";
+@import "wrapper.css";
 @import "greeter.css";
 @import "navigator.css";
 @import "videoPlayer.css";

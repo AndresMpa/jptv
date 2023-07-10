@@ -3,11 +3,11 @@
   flex-wrap: wrap;
   flex-direction: column;
 
-  position: relative;
-
-  max-width: 25%;
+  width: 25%;
+  min-height: 100vh;
 }
 
+/*
 .navigator--container__title:first-child {
   margin: 0px 0px 10px 0px;
 }
@@ -24,3 +24,4 @@
 .navigator--divider {
   float: left;
 }
+*/
