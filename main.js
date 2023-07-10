@@ -1,29 +1,27 @@
 const { app, BrowserWindow } = require("electron");
-require('electron-reload')(__dirname);
-const path = require('path')
-
+require("electron-reload")(__dirname);
+const path = require("path");
 
 const createWindow = () => {
-  const window = new BrowserWindow({
-    width: 800,
-    height: 600,
+  const windowInstance = new BrowserWindow({
     webPreferences: {
-      preload: path.join(__dirname, "src/preload.js"),
+      center: true,
+      title: "JPTV",
+      useContentSize: true,
+      preload: path.join(__dirname, "src/preload/context.js"),
     },
   });
 
-  window.maximize();
-
-  window.loadFile("index.html");
-
-  return window;
+  windowInstance.setBackgroundColor("#131313");
+  windowInstance.loadFile("index.html");
 };
 
 app.whenReady().then(() => {
-  const window = createWindow();
-
+  createWindow();
 });
 
 app.on("window-all-closed", () => {
-  if (process.platform !== "darwin") app.quit();
+  if (process.platform !== "darwin") {
+    app.quit();
+  }
 });
