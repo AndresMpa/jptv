@@ -1,5 +1,6 @@
 # jptv
-A video player written in JS/TS extensible through some packages
+
+A video player written in electron extensible through some packages
 
 ## To do
 
