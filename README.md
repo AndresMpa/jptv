@@ -6,7 +6,7 @@ A video player written in electron extensible through some packages
 
 - [ ] Look for testers
 - [ ] Create bin from JPTV
-- [ ] Try to make a public package
+- [x] Try to make a public package
 - [ ] Complete minimal
 - [ ] Add themes
 - [ ] Handle multiple video types
