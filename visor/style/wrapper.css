@@ -1,8 +1,0 @@
-.wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  align-content: space-between;
-
-  width: 100vw;
-  height: 100vh;
-}
