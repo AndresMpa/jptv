@@ -13,7 +13,7 @@ A video player written in electron extensible through some packages
 
 <div align="center">
 
-| File type | Suported formats                     |
+| File type | Supported formats                     |
 | --------- | ------------------------------------ |
 | Video     | MP4, WebM, Ogg                       |
 | Audio     | MP3, WAV, Ogg                        |
