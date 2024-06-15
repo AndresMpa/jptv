@@ -1,110 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="./src/style/main.css" />
-    <title>Document</title>
+    <title>Hello World!</title>
+
   </head>
   <body>
-    <main>
-      <nav class="navigator">
-        <article class="navigator--container">
-          <h2 class="navigator--container__title">Recently opened</h2>
-          <!--Cicle until 5-->
-          <ul class="recently--container">
-            <li>random vide.mp4</li>
-            <li>random vide.mp4</li>
-            <li>random vide.mp4</li>
-            <li>random vide.mp4</li>
-            <li>random vide.mp4</li>
-            <li>random vide.mp4</li>
-          </ul>
-        </article>
-
-        <!--Use default file browser-->
-        <article class="navigator--container" id="openVideo">
-          <h2 class="navigator--container__title">Open video</h2>
-        </article>
-
-        <hr class="navigator--divider" />
-
-        <!--Add some contact data-->
-        <article class="navigator--container">
-          We are using Node.js <span id="node-version"></span>, Chromium
-          <span id="chrome-version"></span>, and Electron
-          <span id="electron-version"></span>.
-        </article>
-      </nav>
-
-      <!--Simple greeter-->
-      <section id="greeter">
-        <article id="greeter--container">
-          <h1 id="greeter--container__title">Welcome to JPTV!</h1>
-
-          <h3 id="greeter--container__message">
-            A simple easy-to-use video player, using modern look and feel to
-            handle your videos
-          </h3>
-        </article>
-      </section>
-
-      <section id="videoPlayer">
-        <!--Video screen-->
-        <article>
-          <video controls>
-            <source src="" type="video/mp4" />
-            <source src="" type="video/ogg" />
-            Your browser does not support HTML video.
-          </video>
-        </article>
-        <!--Video controls-->
-        <article>
-          <div>
-            <button id="volume">Volume</button>
-            <p id="timeLeft">
-              <span>time passed</span> : <span>Time left</span>
-            </p>
-          </div>
-          <div id="controls">
-            <button id="backwardSome">Go back 5</button>
-            <button id="backwards">Backwards</button>
-            <button id="playPause">Play/Pause</button>
-            <button id="forwards">Forwards</button>
-            <button id="forwardSome">Go next 5</button>
-          </div>
-          <div>
-            <button id="optionButton">options</button>
-            <!--Options dialog-->
-            <div id="optionDialog">
-              <ul>
-                <li>
-                  <input
-                    type="checkbox"
-                    name="Dark mode"
-                    placeholder="Dark mode"
-                  />
-                </li>
-                <li>
-                  <input
-                    type="checkbox"
-                    name="Subtitles"
-                    placeholder="Subtitles"
-                  />
-                </li>
-                <li>
-                  <input
-                    type="checkbox"
-                    name="Show time left"
-                    placeholder="Show time left"
-                  />
-                </li>
-              </ul>
-            </div>
-          </div>
-        </article>
-      </section>
-    </main>
+    <h1>💖 Hello World!</h1>
+    <p>Welcome to your Electron application.</p>
+    <script type="module" src="/src/renderer.ts"></script>
   </body>
 </html>
