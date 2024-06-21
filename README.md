@@ -14,10 +14,12 @@ A simple, flexible, usable media player
 
 ## To do
 
+-   [ ] Handle multiple audio types  
+-   [ ] Handle multiple video types
+-   [ ] Handle multiple images types
 -   [ ] Complete minimal
 -   [ ] Add themes
 -   [ ] Create bin from JPTV
--   [ ] Handle multiple video types
 
 #### Supported formats
 
