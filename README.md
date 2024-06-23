@@ -18,7 +18,7 @@ A simple, flexible, usable media player
 -   [ ] Handle multiple video types
 -   [ ] Handle multiple images types
 -   [ ] Complete minimal
--   [ ] Add themes
+-   [ ] Add themes (White)
 -   [ ] Create bin from JPTV
 
 #### Supported formats
