@@ -20,6 +20,7 @@ A simple, flexible, usable media player
 -   [ ] Complete minimal
 -   [ ] Add themes (White)
 -   [ ] Create bin from JPTV
+-   [ ] Add somthing for sponsoring
 
 #### Supported formats
 
