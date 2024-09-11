@@ -7,6 +7,8 @@
 ![TypeScript](https://img.shields.io/badge/-typescript-white?style=for-the-badge&logo=TypeScript)
 ![Vite](https://img.shields.io/badge/-vite-FFCF25?style=for-the-badge&logo=Vite)
 
+---
+
 A simple, flexible, usable media player
 
 </div>
