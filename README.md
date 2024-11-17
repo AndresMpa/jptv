@@ -23,6 +23,7 @@ A simple, flexible, usable media player
 -   [ ] Add themes (White)
 -   [ ] Create bin from JPTV
 -   [ ] Add somthing for sponsoring
+-   [ ] Try building for apt
 
 #### Supported formats
 
