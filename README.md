@@ -35,6 +35,4 @@ A simple, flexible, usable media player
 | Audio     | MP3, WAV, Ogg                        |
 | Images    | JPEG, PNG, BMP, SVG, GIF, WebP, APNG |
 
-Stopped due to funeral
-
 </div>
