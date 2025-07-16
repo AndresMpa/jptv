@@ -24,6 +24,7 @@ A simple, flexible, usable media player
 -   [ ] Create bin from JPTV
 -   [ ] Add somthing for sponsoring
 -   [ ] Try building for apt
+- [ ] Try MCP
 
 #### Supported formats
 
